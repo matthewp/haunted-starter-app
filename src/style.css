@@ -1,0 +1,17 @@
+body {
+  background-color: #303f42;
+  color: #a7dbe5;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+body > h1 {
+  margin-top: 0;
+  background-color: #000;
+  padding: 1em;
+  text-align: center;
+}
+my-app {
+  display: block;
+  padding: 1em;
+}
