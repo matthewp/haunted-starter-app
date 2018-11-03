@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@matthewp/haunted": "1.5.0",
+    "@matthewp/haunted": "^1.5.0",
     "lit-html": "latest"
   },
   "devDependencies": {
