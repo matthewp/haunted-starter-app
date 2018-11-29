@@ -8,14 +8,11 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@matthewp/haunted": "^2.0.1",
+    "haunted": "^2.3.0",
     "lit-html": "^0.13.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": [
-    "web-components",
-    "lit-html"
-  ]
+  "keywords": ["web-components", "lit-html"]
 }

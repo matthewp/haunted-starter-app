@@ -1,4 +1,4 @@
-import { component, useState } from "@matthewp/haunted";
+import { component, useState } from "haunted";
 import { html } from "lit-html";
 import "./FullName.js";
 import "./style.css";
@@ -12,9 +12,7 @@ function App() {
     <h3>${name}</h3>
 
     <p>Change name:</p>
-    <full-name
-      @change=${ev => setName(ev.detail)}>
-    </full-name>    
+    <full-name @change="${ev => setName(ev.detail)}"> </full-name>
   `;
 }
 

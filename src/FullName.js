@@ -1,4 +1,4 @@
-import { component, useState } from "@matthewp/haunted";
+import { component, useState } from "haunted";
 import { html } from "lit-html";
 
 function dispatch(el, first, last) {
@@ -16,13 +16,21 @@ function FullName(el) {
 
   return html`
     <div class="container">
-    <label for="first">First</label>
-    <input value="${first}" @keyup=${ev =>
-    setFirst(ev.target.value)} type="text" name="first">
+      <label for="first">First</label>
+      <input
+        value="${first}"
+        @keyup="${ev => setFirst(ev.target.value)}"
+        type="text"
+        name="first"
+      />
 
-    <label for="last">Last</label>
-    <input value="${last}" @keyup=${ev =>
-    setLast(ev.target.value)} type="text" name="last">
+      <label for="last">Last</label>
+      <input
+        value="${last}"
+        @keyup="${ev => setLast(ev.target.value)}"
+        type="text"
+        name="last"
+      />
     </div>
 
     <style>
