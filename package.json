@@ -8,8 +8,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "haunted": "^2.3.0",
-    "lit-html": "^0.13.0"
+    "haunted": "^4.0.0",
+    "lit-html": "^1.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
