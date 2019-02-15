@@ -1,5 +1,5 @@
-import { component, useState } from "haunted";
-import { html } from "lit-html";
+import { component, useState, html } from "haunted";
+
 import "./FullName.js";
 import "./style.css";
 
