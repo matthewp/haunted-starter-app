@@ -1,7 +1,9 @@
-import { component, useState, html } from "haunted";
-
+import {
+  component,
+  useState,
+  html
+} from "https://unpkg.com/haunted/haunted.js";
 import "./FullName.js";
-import "./style.css";
 
 function App() {
   const [name, setName] = useState("");

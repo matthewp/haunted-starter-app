@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "description": "A project for creating apps with Haunted and lit-html.",
   "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
-  },
+  "scripts": {},
   "dependencies": {
-    "haunted": "^4.1.2",
-    "lit-html": "^1.0.0"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.6.1"
+    "haunted": "4.5.1",
+    "lit-html": "1.1.1"
   },
   "keywords": ["web-components", "lit-html"]
 }

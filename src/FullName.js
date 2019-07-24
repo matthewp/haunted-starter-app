@@ -1,5 +1,8 @@
-import { component, useState } from "haunted";
-import { html } from "lit-html";
+import {
+  component,
+  html,
+  useState
+} from "https://unpkg.com/haunted/haunted.js";
 
 function dispatch(el, first, last) {
   let event = new CustomEvent("change", {
