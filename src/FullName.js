@@ -1,21 +1,20 @@
 import {
-  component,
   html,
-  useState
+  component,
+  useState,
+  useEffect
 } from "https://unpkg.com/haunted/haunted.js";
-
-function dispatch(el, first, last) {
-  let event = new CustomEvent("change", {
-    detail: first + " " + last
-  });
-  el.dispatchEvent(event);
-}
 
 function FullName(el) {
   const [first, setFirst] = useState("Happy");
   const [last, setLast] = useState("Halloween 🎃");
 
-  dispatch(el, first, last);
+  useEffect(() => {
+    const event = new CustomEvent('change', {
+      detail: `${first} ${last}`
+    });
+    this.dispatchEvent(event);
+  }, [first, last]);
 
   return html`
     <div class="container">
