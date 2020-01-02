@@ -1,7 +1,7 @@
 import {
+  html,
   component,
   useState,
-  html
 } from "https://unpkg.com/haunted/haunted.js";
 import "./FullName.js";
 
