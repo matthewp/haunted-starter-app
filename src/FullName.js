@@ -19,20 +19,22 @@ function FullName(el) {
 
   return html`
     <div class="container">
-      <label for="first">First</label>
+      <label for="first-name">First</label>
       <input
-        value="${first}"
-        @keyup="${ev => setFirst(ev.target.value)}"
+        value=${first}
+        @keyup=${ev => setFirst(ev.target.value)}
         type="text"
         name="first"
+        id="first-name"
       />
 
-      <label for="last">Last</label>
+      <label for="last-name">Last</label>
       <input
-        value="${last}"
-        @keyup="${ev => setLast(ev.target.value)}"
+        value=${last}
+        @keyup=${ev => setLast(ev.target.value)}
         type="text"
         name="last"
+        id="last-name"
       />
     </div>
 
